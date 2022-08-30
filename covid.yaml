@@ -1,0 +1,23 @@
+file_type: csv
+dataset_name: covid
+file_name: the-reddit-covid-dataset-posts
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+dtypes: str
+selftext: 0
+permalink: ''
+subreddit_nsfw: 0
+id: 0
+subreddit_name: 0
+subreddit_id: 2
+
+columns: 
+    - subreddit.id
+    - subreddit.name
+    - subreddit.nsfw
+    - created_utc
+    - domain
+    - url
+    - title
+    - score
